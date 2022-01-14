@@ -4,7 +4,7 @@ Due to many questions how to setup the cameras and the equipment I decided to wr
 
 The hardware setup obviously requires a steel dartbaord. In addition, proper dart recognition depends on homogeneous lighting, the darts must not cast string shadows. A 360 degree LED light ring is recommended, because the cameras can be attached to in order to have a view on the whole board. At least three cameras are required to be acaptue all threee darts thrown. Each camera should have a distortion-free lense. And last but not least, a controller device is needed that the cameras are connected to. Any machine capable of running Linux will do, but in terms of performance a Rasbperry Pi 3B+ class device is the minimum requirement for image processing to run properly. Decent results requires faster devices, for example a NVIDA Jetson Nano. 
 
-The software setup basically requires getting a recent Linux system running. Various guides brought up by an internet search and a some basic Linux knowledge is sufficient here. Once this is running, an [autodarts.io] account must be created to obtains a board ID and an API key. More about this will be explained later.
+The software setup basically requires getting a recent Linux system running. Various guides brought up by an internet search and a some basic Linux knowledge is sufficient here. Once this is running, an [autodarts.io](https://autodarts.io) account must be created to obtains a board ID and an API key. More about this will be explained later.
 
 ## Camera adjustments
 
